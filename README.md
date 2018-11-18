@@ -153,7 +153,7 @@ if (!ctx.isClient) {
   })
 }
 ```
-For v2, add the following:
+For v2, just the package (or a regex) to the transpile field `nuxt.config.js`:
 ```js
 transpile: [/^vue2-google-maps($|\/)/]
 ```
